@@ -16,4 +16,4 @@ INSERT INTO horário (Horários, Segunda, Terça, Quarta, Quinta, Sexta) VALUES
 ('11:10', 'Análise e Projeto de Sistemas', 'Ciência da Computação', 'Ed Financeira', 'Programação Front-end', 'Programação Mobile')
 ('12:00', 'Sociologia', 'Português', 'Banco de Dados', 'Geografia', 'Ciência da Computação')
 
- 
+SELECT * FROM horário 
