@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS horário;
 CREATE TABLE horário (
     id INTEGER PRIMARY KEY,
     Horários TEXT NOT NULL,
@@ -9,11 +10,11 @@ CREATE TABLE horário (
 );
 
 INSERT INTO horário (Horários, Segunda, Terça, Quarta, Quinta, Sexta) VALUES
-('07:30', 'Biologia', 'Matemática', 'Matemática', 'Química', 'Programação Mobile')
-('08:20', 'Sociologia', 'Português', 'Português', 'Inglês', 'Banco de Dados')
-('09:10', 'Projeto de Vida', 'Programação Front-end', 'Programação Front-end', 'Química', 'Matemática')
-('10:20', 'Análise e Projeto de Sistemas', 'História', 'Programação Front-end', 'Geografia', 'Biologia')
-('11:10', 'Análise e Projeto de Sistemas', 'Ciência da Computação', 'Ed Financeira', 'Programação Front-end', 'Programação Mobile')
-('12:00', 'Sociologia', 'Português', 'Banco de Dados', 'Geografia', 'Ciência da Computação')
+('07:30', 'Biologia', 'Matemática', 'Matemática', 'Química', 'Programação Mobile'),
+('08:20', 'Sociologia', 'Português', 'Português', 'Inglês', 'Banco de Dados'),
+('09:10', 'Projeto de Vida', 'Programação Front-end', 'Programação Front-end', 'Química', 'Matemática'),
+('10:20', 'Análise e Projeto de Sistemas', 'História', 'Programação Front-end', 'Geografia', 'Biologia'),
+('11:10', 'Análise e Projeto de Sistemas', 'Ciência da Computação', 'Ed Financeira', 'Programação Front-end', 'Programação Mobile'),
+('12:00', 'Sociologia', 'Português', 'Banco de Dados', 'Geografia', 'Ciência da Computação');
 
 SELECT * FROM horário 
